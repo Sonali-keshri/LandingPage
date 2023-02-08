@@ -1,0 +1,182 @@
+.wrapperClass {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  margin-left:5%;
+}
+.card-body{
+    line-height: 1.5rem;
+}
+
+.cardDiv1 {
+  position: relative;
+  top: -5%;
+}
+.cardDiv1 div {
+  margin-bottom: 1rem;
+}
+.cardDiv2 div {
+  margin-bottom: 1rem;
+}
+.eyeIcon {
+  position: relative;
+  left: -36px;
+  top: -6px;
+  color: red;
+  font-size: 1.2rem;
+}
+
+.tabIcon {
+  position: relative;
+  left: -36px;
+  top: 8px;
+  color: red;
+  font-size: 0.8rem;
+  background-color: white;
+}
+
+.crossIcon2 {
+  position: relative;
+  font-size: 0.8rem;
+  bottom: -10px;
+  left: -5px;
+  color: black;
+}
+.crossIcon1 {
+  position: relative;
+  font-size: 0.8rem;
+  top:-15px;
+  left: 12px;
+  font-weight: bolder !important;
+  color: black !important;
+}
+.card{
+  cursor: pointer;
+  transition: all ease-in .4s;
+}
+.card:hover{
+  background-color: rgba(206, 203, 203, 0.616);
+  transform: scale(1.1);
+  /* color: white; */
+}
+
+@media only screen and (max-width: 1280px) {
+  .wrapperClass{
+    width: 80%;
+  }
+  .insideWrapperDiv{
+    gap: 4rem !important
+  }
+  .cards{
+    width: 60%;
+  }
+  .cardDiv1,.cardDiv2{
+    width: 100%;
+  }
+  .singleCard{
+    width: 18rem !important;
+  }
+  .thirdSecContent{
+    width: 40% !important;
+  }
+  .thirdSecContent div{
+    
+    margin-left:0 !important;
+ 
+  }
+  
+}
+@media only screen and (max-width: 1024px){
+  .wrapperClass{
+    width: 100%;
+  }
+  .insideWrapperDiv{
+    gap: 3rem !important;
+  }
+  .cards{
+    width: 50%;
+  }
+  .singleCard{
+    width: 14rem !important;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .wrapperClass{
+    height: 100%;
+    background-color: rgb(214, 214, 203);
+    padding-top: 5rem;
+    margin-left: 0 !important;
+  }
+  .insideWrapperDiv{
+    margin-top: 2rem;
+    height: 100vh;
+   flex-direction: column;
+   align-items: center !important;
+   justify-content: center !important;
+  }
+  .cards{
+      width: 70%;
+  }
+  .cardDiv1 {
+    top: -15%;
+  }
+  .cardDiv2{
+    top:10% !important;
+  }
+  .thirdSecContent{
+    margin: 0 auto !important;
+    width: 100% !important;
+    padding: 0 ;
+    text-align: center;
+  }
+  .thirdSecContent div{
+    margin: 0 !important;
+    padding: 0 4rem !important;
+    width: 100% !important;
+
+  }
+  .thirdSecContent h1{
+      font-size: 2.5rem !important;
+  }
+  .thirdSecContent p{
+    margin-top: 1rem ;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  .wrapperClass{
+    height: 100rem;
+    margin-left: 0px ;
+    padding: 0;
+  }
+   .cards{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40%;
+    gap: 0 !important;
+   }
+  .insideWrapperDiv{
+    height: 100vh;
+  }
+  .cardDiv1 {
+    top: 0;
+  }
+  .cardDiv2{
+    top:0!important;
+  }
+  .card{
+    width: 100% !important;
+  }
+  .thirdSecContent{
+    position: relative;
+    top: 40%;
+    padding: 0;
+
+  }
+  .thirdSecContent div{
+    padding: 0 2rem !important;
+  }
+}

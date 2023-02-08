@@ -1,0 +1,74 @@
+.mainWrapper {
+  height: 100vh !important;
+  position: relative;
+  padding-top: 2rem;
+  margin-bottom: 5%;
+}
+.imgDiv {
+  position: relative;
+  right: -15%;
+  float: right;
+  width: 80% !important;
+  height: 100% !important;
+}
+.img1 {
+  width: 100%;
+}
+.img2 {
+  position: absolute;
+  top: 20%;
+  left: -5%;
+  z-index: -1;
+  width: 50%;
+}
+
+@media only screen and (max-width: 922px) {
+  .mainWrapper {
+    padding-top: 0rem !important ;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .mainWrapper {
+        padding-top: 0rem !important ;
+        margin: 0 !important;
+      }
+  .secondsection {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    gap: 6rem;
+    margin-top: 3rem !important;
+  }
+  .secondContent{
+    width: 75% !important;
+  }
+  .secondsection div {
+    margin: 0rem !important;
+  }
+  .imgDiv {
+    /* right: -25px; */
+    width: 90% !important;
+  }
+  .img2 {
+    width: 40%;
+  }
+  .img1 {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .mainWrapper{
+    margin-top: 8rem !important;
+  }
+  .secondContent {
+    width: 80% !important;
+    padding: 0 !important;
+  }
+  .imgDiv {
+    width: 100% !important;
+  }
+  .imgDiv .img1{
+    width: 100%;
+  }
+}
